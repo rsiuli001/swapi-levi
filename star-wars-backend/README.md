@@ -1,6 +1,6 @@
 # Star Wars Backend
 
-This project is the backend service for the Star Wars backend application. It is built using Node.js, Express, and GraphQL with Apollo Server. The backend serves data from the Star Wars API and resolves related data for characters, such as films, vehicles, starships, and homeworlds.
+This project is the backend service for the SWAPI-LEVI application. It is built using Node.js, Express, and GraphQL with Apollo Server. The backend serves data from the Star Wars API and resolves related data for characters, such as films, vehicles, starships, and homeworlds.
 
 ## Table of Contents
 
@@ -103,6 +103,7 @@ This project is the backend service for the Star Wars backend application. It is
 ## Technologies
 
 - Node.js: JavaScript runtime environment.
+- TypeScript: Superset of JavaScript that adds static types.
 - Express: Web framework for Node.js.
 - GraphQL: Query language for APIs.
 - Apollo Server: GraphQL server for Express.
