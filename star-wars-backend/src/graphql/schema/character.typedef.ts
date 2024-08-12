@@ -27,12 +27,18 @@ export const characterTypeDefs = gql`
     eye_color: String
     birth_year: String
     gender: String
-    homeworld: String
+    homeworld: HomeWorld
     films: [Film]
     species: [String]
     vehicles: [Vehicle]
     starships: [Starship]
     url: String
+  }
+
+  type HomeWorld {
+    name: String
+    climate: String
+    terrain: String
   }
 
   type Film {
@@ -44,18 +50,18 @@ export const characterTypeDefs = gql`
     name: String
     model: String
     class: String
-    cost: Int
+    cost: String
   }
 
   type Starship {
     name: String
     model: String
     class: String
-    cost: Int
+    cost: String
   }
 
   type Query {
     characters: [CharacterUnresolved]
-    character: CharacterResolved
+    character(url: String!): CharacterResolved
   }
 `;

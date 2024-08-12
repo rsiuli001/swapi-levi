@@ -1,4 +1,12 @@
-star-wars-backend/dist
-star-wars-backend/node_modules
+# Node modules
+node_modules/
 
-star-wars-frontend/node_modules
+# Build outputs
+build/
+dist/
+
+.pnp/
+.pnp.js
+
+# Logs
+*.log

@@ -7,7 +7,6 @@ export interface Character {
   eye_color: string;
   birth_year: string;
   gender: string;
-  homeworld: string;
   url: string;
 }
 
@@ -16,6 +15,13 @@ export interface CharacterUnresolved extends Character {
   species: string[];
   vehicles: string[];
   starships: string[];
+  homeworld: string;
+}
+
+export interface HomeWorld {
+  name: string;
+  climate: string;
+  terrain: string;
 }
 
 export interface Film {
@@ -42,4 +48,5 @@ export interface CharacterResolved extends Character {
   species: string[];
   vehicles: Vehicle[];
   starships: Starship[];
+  homeworld: HomeWorld;
 }
