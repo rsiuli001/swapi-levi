@@ -40,7 +40,7 @@ This project is the backend service for the Star Wars backend application. It is
 
 ## Queries
 
-Get All Characters
+1. Get All Characters
     ```bash
     query Characters {
         characters {
@@ -62,7 +62,7 @@ Get All Characters
     }
     ```
 
-Get a Single Character with Resolved Data
+2. Get a Single Character with Resolved Data
     ```bash
     query Character($url: String!) {
         character(url: $url) {
@@ -108,6 +108,8 @@ Get a Single Character with Resolved Data
 - Apollo Server: GraphQL server for Express.
 
 ## Project Structure
+
+1. Project Structure
 
     ```bash
     .
