@@ -27,9 +27,9 @@ This project is the backend service for the SWAPI-LEVI application. It is built 
 
 ## Usage
 
-1. Start the server:
+1. Build and Start the server:
     ```bash
-    npm start
+    npm buld && npm start
     ```
 
 2. The backend will be running on http://localhost:4000/graphql. You can access the GraphQL playground to interact with the API.
